@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background: radial-gradient( orchid,magenta,rgb(226, 60, 87));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 280px;
+    height: 170px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 16px;
+    position: relative;
+   
+}
+
+.container .logos{
+    display: flex;
+    height: 70px;
+    vertical-align: middle;
+    align-items: center;
+  
+
+}
+
+img{
+    width: 46px;
+    flex: 1;
+}
+.logos .chip{
+    align-items: end;
+    margin-left: 75px;
+   
+
+}
+
+
+.logos .about{
+    margin-left: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    padding: 6px;
+
+}
+
+.info p{
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+
+.info .number{
+    font-size: 21px;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    align-items: end;
+    top: 120px;
+    left: -15px;
+    
+    position: absolute;
+}
+
+section p{
+    color: white;
+    font-size: 14px;
+  
+}
+
+.info:nth-child(3){
+    margin-top: 10px;
+}
