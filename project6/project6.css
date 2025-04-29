@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-color: rgba(178, 248, 160, 0.89);
+
+    
+}
+
+.container{
+    background-color: white;
+    height: 520px;
+    width: 450px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.names{
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  width: 100%;
+
+    
+    
+}
+
+#fname , #lname{
+    padding: 5px;
+    margin-top: 9px;
+
+}
+
+.fname , .lname{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.query-title{
+    margin-bottom: 10px;
+}
+
+.enquiry-fields{
+    display: flex;
+    margin-bottom: 20px ;
+    object-fit: cover;
+    gap: 18px;
+    
+}
+
+.enquiry-fields p{
+    margin: auto;
+    border: 1px solid gray;
+    padding: 5px 12px;
+    border-radius: 3px;
+}
+
+.enquiry-fields p input{
+    margin-right: 6px;
+    
+}
+
+.message p{
+    margin-bottom: 8px;
+}
+
+.message-field{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+.consent{
+    display: flex;
+    gap: 20px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(23, 148, 23);
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+}
+
+p , label{
+    font-size: 18px;
+    color: rgb(70, 64, 64);
+}
+
+label{
+    margin-bottom: 11px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+

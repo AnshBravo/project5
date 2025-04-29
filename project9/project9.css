@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.25px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+
+
+}
+
+img{
+    width: 50px;
+}
+
+.image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top-right-radius:10px ;
+     border-top-left-radius:10px ;
+    background-color: rgb(90, 201, 245);
+}
+
+.profile-picture{
+    width: 120px;
+    border: none;
+    border-radius: 50%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    position: relative;
+}
+
+.card::after{
+    content: "";
+    position: absolute;
+    background: linear-gradient(#280594,#981FFF,#41C8FF,#E61FFF);
+    z-index: -100;
+    transform: scale(1.02);
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.info{
+    margin: 5px;
+    padding: 20px;
+    row-gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info p{
+    font-size: 15px;
+    color: rgb(66, 63, 63);
+}
+
+.speciality{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(88, 83, 83);
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+   font-size: 14px;
+   font-weight: 500;
+   color: rgb(41, 36, 36);
+}
+
+
+
+.socials img{
+    width: 30px;
+}
+
+
+
+button{
+    width: 35%;
+    margin: auto;
+    padding: 8px 0px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(236, 35, 62, 0.849);
+    margin-bottom: 20px;
+    transition: all 0.2s;
+}
+button:hover{
+        background-color: rgba(241, 12, 43, 0.849);
+        transform: rotate(1deg);
+  
+}

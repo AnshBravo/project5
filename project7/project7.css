@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background-image: url(desert-starscape-sand-dunes-night-sky-purple-glow-desktop-wallpaper-4K.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.048);
+    backdrop-filter: blur(2px);
+    box-shadow: inset 0px 0px 5px rgba(128, 128, 128, 0.479) ,  -0px -0px 5px rgba(128, 128, 128, 0.555);
+    align-items: center;
+    padding: 30px;
+    height: 300px;
+    border-radius: 10px;
+    
+   
+   
+}
+
+h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+input[type='text']{
+    width: 100%;
+    padding: 10px;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    margin: 5px;
+    color: rgb(37, 34, 34);
+        background-color: rgba(255, 255, 255, 0.048);
+    backdrop-filter: blur(2px);
+    box-shadow: inset 0px 0px 5px rgba(128, 128, 128, 0.479) ,  -0px -0px 5px rgba(128, 128, 128, 0.555);
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.conditions{
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ span{
+    font-size: 15px;
+    color: white;
+
+    padding: 4px;
+    padding: 16px 4px;
+    margin: auto;
+    margin: 2px 5px 1px 5px;
+}
+
+span input[type='checkbox']{
+    margin-right: 7px;
+}
+
+button{
+    margin-top: 25px;
+    padding: 6px 45px;
+    font-size: 20px;
+    color: white;
+    background:linear-gradient(45deg, rgba(22, 22, 224, 0.849),rgba(35, 14, 158, 0.904),rgba(113, 12, 245, 0.877)) ;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+button:hover{
+        background:linear-gradient(45deg, rgba(107, 16, 211, 0.89),rgba(39, 164, 236, 0.904),rgba(112, 3, 253, 0.904)) ;
+
+}
+
+.forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    gap: 10px;
+}
+
+p span{
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+p span:hover{
+    text-decoration: underline white;
+}
+
+.forget p{
+    color: white;
+}
+
+
+
